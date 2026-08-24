@@ -1,0 +1,147 @@
+:root {
+  --leaf-900: #163020;
+  --leaf-700: #2f5233;
+  --leaf-500: #5d8736;
+  --leaf-300: #a6c48a;
+  --soil-200: #efe6d3;
+  --sun-100: #fff7e8;
+  --accent: #d97742;
+  --ink: #1f2937;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(
+      circle at 10% 10%,
+      rgba(255, 255, 255, 0.9) 0%,
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 90% 0%,
+      rgba(255, 245, 220, 0.9) 0%,
+      transparent 30%
+    ),
+    linear-gradient(160deg, var(--sun-100), var(--soil-200));
+  min-height: 100vh;
+}
+
+.hero {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 48px 20px 24px;
+}
+
+.kicker {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--leaf-700);
+  letter-spacing: 0.03em;
+}
+
+h1 {
+  margin: 8px 0 10px;
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--leaf-900);
+}
+
+.subtitle,
+.meta {
+  margin: 0 0 8px;
+  max-width: 75ch;
+  line-height: 1.6;
+}
+
+.layout {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 12px 20px 56px;
+  display: grid;
+  gap: 18px;
+}
+
+.panel {
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(47, 82, 51, 0.12);
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 10px 25px rgba(22, 48, 32, 0.08);
+}
+
+h2 {
+  margin-top: 0;
+  color: var(--leaf-700);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: var(--leaf-700);
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: var(--leaf-900);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th,
+td {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 10px;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+thead th {
+  background: #f0fdf4;
+  color: #1b4332;
+}
+
+a {
+  color: #0f766e;
+}
+
+@media (max-width: 820px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    margin-bottom: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    background: #fff;
+    padding: 8px;
+  }
+
+  td {
+    border: none;
+    padding: 6px;
+  }
+}
