@@ -40,15 +40,17 @@ Internal documentation and rules guiding the drill workflow:
 
 ---
 
+
 ## 🎯 Interactive Drills & Live Pages (`/drills`)
 
-Hands-on exercises built to practice specific web mechanics:
-| Date | Topic / Drill | Instructions | Live Web Page |
-| :--- | :--- | :--- | :--- |
-| **2026-08-25** | Flexbox Alignment Drill | 📝 [Read Specs](drills/2026-08-25/css/flexbox-align/README.md) | 🌐 [View Live Page](https://milanjosipovic.github.io/-Drill-Garden/drills/2026-08-25/css/flexbox-align/index.html) |
-| **2026-08-24** | Semantic Layout Drill | 📝 [Read Specs](drills/2026-08-24/html/semantic-layout/README.md) | 🌐 [View Live Page](https://milanjosipovic.github.io/-Drill-Garden/drills/2026-08-24/html/semantic-layout/index.html) |
-
-
+| Date | Track | Drill | Live Demo | Code | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **2026-08-24** | HTML5 | Semantic Layout | 🌐 [Open](https://milanjosipovic.github.io/-Drill-Garden/drills/2026-08-24/html/semantic-layout/index.html) | 📁 [Folder](drills/2026-08-24/html/semantic-layout/) | 📝 [README](drills/2026-08-24/html/semantic-layout/README.md) |
+| **2026-08-24** | CSS3 | Flexbox Card | 🌐 [Open](https://milanjosipovic.github.io/-Drill-Garden/drills/2026-08-24/css/flexbox-card/index.html) | 📁 [Folder](drills/2026-08-24/css/flexbox-card/) | 📝 [README](drills/2026-08-24/css/flexbox-card/README.md) |
+| **2026-08-24** | JavaScript | Todo Array Practice | 🌐 [Open](https://milanjosipovic.github.io/-Drill-Garden/drills/2026-08-24/js/todo-array/index.html) | 📁 [Folder](drills/2026-08-24/js/todo-array/) | 📝 [README](drills/2026-08-24/js/todo-array/README.md) |
+| **2026-08-25** | HTML5 | Form Structure | 🌐 [Open](https://milanjosipovic.github.io/-Drill-Garden/drills/2026-08-25/html/form-structure/index.html) | 📁 [Folder](drills/2026-08-25/html/form-structure/) | 📝 [README](drills/2026-08-25/html/form-structure/README.md) |
+| **2026-08-25** | CSS3 | Flexbox Feature Card | 🌐 [Open](https://milanjosipovic.github.io/-Drill-Garden/drills/2026-08-25/css/flexbox-feature-card/index.html) | 📁 [Folder](drills/2026-08-25/css/flexbox-feature-card/) | 📝 [README](drills/2026-08-25/css/flexbox-feature-card/README.md) |
+| **2026-08-25** | JavaScript | Task Array Board | 🌐 [Open](https://milanjosipovic.github.io/-Drill-Garden/drills/2026-08-25/js/task-array-board/index.html) | 📁 [Folder](drills/2026-08-25/js/task-array-board/) | 📝 [README](drills/2026-08-25/js/task-array-board/README.md) |
 ---
 
 ## 🚀 Live Access & Profiles
