@@ -55,7 +55,7 @@ Internal documentation and rules guiding the drill workflow:
 
 ## 🚀 Live Access & Profiles
 
-* 🌐 **Live Digital Garden:** [milanjosipovic.github.io/-Drill-Garden](https://milanjosipovic.github.io/-Drill-Garden/)
+* 🌐 **Live Digital Garden:** [https://milanjosipovic.github.io/drill-garden/](https://milanjosipovic.github.io/drill-garden/)
 * 👤 **Author:** [Milan Josipović](https://milanjosipovic.github.io)
 
 ---
